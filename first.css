@@ -1,13 +1,13 @@
 
-
-
 body{
     background-color: black;
 }
+
+
 .container-1{
    width:75%;
     border:1px solid black;
-    color: cornsilk;
+   color:pink;
     margin :0px auto;
     text-align:center;
     margin-top:30px;
@@ -32,4 +32,78 @@ body{
     box-shadow: 5px 10px 5px 4px #EE82EE;
     
     }
+
+.flex-box-jack-1{
+    display:flex;
+    border:1px solid black;
+    padding:10px;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content:space-around;
+    background-color:green;
+    color: #ffff;
+    
+
+}
+.flex-box-jack-1 div{
+  
+    border:1px solid black;
+   
+    flex:1;
+    height:400px;
+    text-align: center;
+   
+    
+
+
+    
+
+}
+.flex-box-jack-2 div{
+   
+    
+    padding:10px;
+    
+    border:1px solid black;
+
+
+    
+
+}
+.flex-box-jack-2 div button{
+   
+    
+    padding:10px;
+    
+    border:1px solid black;
+
+
+    
+
+}
+
+
+
+
+.flex-box-jack-2{
+    display:flex;
+    border:1px solid black;
+    padding:10px;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content: space-around;
+    background-color:green;
+    color: #ffff;
+
+}
+.flex-box-jack-3{
+    display:flex;
+    border:1px solid black;
+    padding:10px;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content: space-around;
+    
+    
+}
 
